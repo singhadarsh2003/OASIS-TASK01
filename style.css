@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url("./assets/pexels-lukas-1420709_cleanup.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 35%;
+    background-attachment:  scroll; 
+    /* background-attachment: fixed; */
+    
+    width: 100%;
+    height: 100%;
+}
+.vpn1{
+    font-size: 40px;
+    color: rgba(240, 41, 41, 0.733);
+    text-shadow: none;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.trans{
+    font-size: 40px;
+    color: rgba(29, 2, 2, 0.733);
+    text-shadow: none;
+    text-align: right;
+    /* padding-right: 370px; */
+    position: relative;
+    top: -44px;
+    right: 270px;
+    
+}
+.eng{
+    font-size: 40px;
+    color: rgba(27, 9, 9, 0.733);
+    text-shadow: none;
+    text-align: right; 
+    position: relative;
+    top: -93px;
+    right: 70px;
+    
+}
+/* .fa-chevron-down{
+    color: #ba0cc5;
+}
+.fa-globe{
+    color: #ba0cc5;
+} */
+.main1{
+    text-align: center;
+    font-size: 60px;
+}
+.main2{
+    text-align: center;
+    font-size: medium;
+    font-weight: 800;
+    line-height: 40px;
+}
+.bt{
+    text-align: center;
+}
+.btnn{
+    background: #ba0cc5;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 50px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer; 
+    letter-spacing: 2px;
+    
+}
+.day{
+    text-align: center;
+    line-height: 100px;
+    font-weight: 700;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 390px;
+}
+
+
+.item1{
+    display: inline-flex;
+    justify-content: center;
+    gap: 25px; 
+    line-height: 33px;
+}
+.item1 img{
+    height: 230px;
+    border-radius: 15px;
+    
+}
+.item1 p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.highsecure{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.pall{
+    font-weight: 500;
+}
+.getbtn{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 16px;
+    border: none;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 540px;
+}
+.item2{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 25px;
+    line-height: 33px;
+}
+.item2 img{
+    height: 230px;
+    border-radius: 15px;
+    
+}
+.item2 p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.highsafer{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.pall2{
+    font-weight: 500;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 690px;
+}
+.item3{
+    display: inline-flex;
+    justify-content: center;
+    gap: 25px;
+    line-height: 33px;
+}
+.item3 img{
+    height: 230px;
+    border-radius: 15px;
+    
+}
+.item3 p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.highvpn{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.pall3{
+    font-weight: 500;
+}
+.cont11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 850px;
+}
+.item11{
+    display: inline-flex;
+    gap: 90px;
+    
+}
+.item11 img{
+    height: 150px;
+    border-radius: 40px;
+}
+.itp1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.itp2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.itp3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.a1{
+    position: relative;
+    top: 1000px;
+    text-align: center;
+}
+.a1 a{
+    color: green;
+    font-size: xx-large;
+    word-spacing: 7px;
+}
+.img111{
+    position: relative;
+    top: 1150px;
+}
+.img111 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+.p11{
+    position: relative;
+    top: 565px;
+    text-align: center;
+    justify-content: center;
+}
+.p111{
+    color: #ffffff;
+    font-size: xx-large;
+
+}
+.server{
+    position: relative;
+    top: 1050px;
+    text-align: center;
+}
+.server a{
+    font-size: larger;
+    color: aqua;
+}
+    
